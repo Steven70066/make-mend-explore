@@ -1,0 +1,52 @@
+<section class="bento-section">
+
+  {{ $sections := slice
+    (dict "name" "Outdoors" "section" "outdoors" "icon" "news" "col" "")
+    (dict "name" "Mesh Radio" "section" "mesh" "icon" "news" "col" "")
+    (dict "name" "HAM Radio" "section" "ham" "icon" "news" "col" "")
+  }}
+
+  {{ range $sections }}
+    {{ $sectionInfo := . }}
+    {{ $section := site.GetPage (printf "/%s" .section) }}
+
+    {{ if $section }}
+      <div class="bento-card {{ $sectionInfo.col }}">
+
+        {{ with $section.RegularPages.ByDate.Reverse }}
+          {{ $latest := index . 0 }}
+
+          {{ with $latest.Resources.GetMatch "cover.*" }}
+            <img src="{{ .RelPermalink }}" alt="{{ $latest.Title }}">
+          {{ end }}
+
+          <div>
+            <span class="card-icon">
+              {{ partial "icon.html" $sectionInfo.icon }}
+            </span>
+
+            <h3>{{ $sectionInfo.name }}</h3>
+
+            <h4>
+              <a href="{{ $latest.RelPermalink }}">
+                {{ $latest.Title }}
+              </a>
+            </h4>
+
+            <p>
+  {{ $latest.Summary }}
+</p>
+          </div>
+        {{ end }}
+
+        <footer>
+          <a href="{{ $section.RelPermalink }}">View all →</a>
+        </footer>
+
+      </div>
+    {{ end }}
+
+  {{ end }}
+
+</section>
+

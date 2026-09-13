@@ -1,0 +1,15 @@
+badge: DIY · Outdoors · Radio
+
+svg: hero.svg
+
+title: Make.  Mend.  Explore.
+
+description: Tactical Techniques and Procedures for offgrid Communications
+
+btn_primary:
+  label: Get Started
+  url: /docs
+
+btn_secondary:
+  label: Buy Me a Coffee
+  url: https://buymeacoffee.com/makemendexplore
