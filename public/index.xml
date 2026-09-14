@@ -1,32 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Site Name</title>
-    <link>//localhost:1313/</link>
-    <description>Recent content on Site Name</description>
+    <title>Make. Mend. Explore.</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Make. Mend. Explore.</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>//localhost:1313/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;p&gt;About/ Any Markdown&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mesh Radio Build</title>
-      <link>//localhost:1313/blog/hello-world/</link>
+      <link>http://localhost:1313/blog/hello-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/blog/hello-world/</guid>
+      <guid>http://localhost:1313/blog/hello-world/</guid>
       <description>So I decided to jump down the rabbit hole of mesh radios&amp;hellip;.</description>
     </item>
     <item>
       <title>Mesh Radio Build</title>
-      <link>//localhost:1313/mesh/hello-world/</link>
+      <link>http://localhost:1313/ham/hello-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/mesh/hello-world/</guid>
+      <guid>http://localhost:1313/ham/hello-world/</guid>
+      <description>So I decided to jump down the rabbit hole of mesh radios&amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Mesh Radio Build</title>
+      <link>http://localhost:1313/mesh/hello-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/mesh/hello-world/</guid>
       <description>So I decided to jump down the rabbit hole of mesh radios….</description>
+    </item>
+    <item>
+      <title>Mesh Radio Build</title>
+      <link>http://localhost:1313/outdoors/hello-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/outdoors/hello-world/</guid>
+      <description>So I decided to jump down the rabbit hole of mesh radios&amp;hellip;.</description>
     </item>
   </channel>
 </rss>

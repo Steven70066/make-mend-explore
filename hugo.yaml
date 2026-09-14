@@ -1,4 +1,4 @@
-baseURL: "https://steven70066.github.io/make-mend-explore/"
+baseURL: "https://www.makemendexplore.com/"
 theme: E25DX
 
 enableGitInfo: true
@@ -14,9 +14,9 @@ languages:
     languageName: English
     languageCode: en-US
     contentDir: content/en
-    title: Site Name
+    title: Make. Mend. Explore.
     params:
-      description: Site Description
+      description: 
 
 services:
   googleAnalytics:
@@ -38,7 +38,7 @@ markup:
 
 params:
   project:
-    startYear: 2024 # To omit, put a ~ here
+    startYear: 2026 # To omit, put a ~ here
     presentYear: 2026
     repo:
       main: username/repo
@@ -48,7 +48,7 @@ params:
 
   author:
     name: Steven Miller
-    url: https://github.com/username
+    url: https://github.com/steven70066
 
   pagination:
     size: 6

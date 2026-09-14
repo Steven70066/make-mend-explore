@@ -33,10 +33,10 @@ Disallow: /blog/
 Disallow: /ham/
 Disallow: /outdoors/
 Disallow: /about/
+Disallow: /
 Disallow: /blog/hello-world/
 Disallow: /ham/hello-world/
 Disallow: /mesh/hello-world/
 Disallow: /outdoors/hello-world/
 Disallow: /page/
-Disallow: /
 Disallow: /mesh/
