@@ -1,3 +1,4 @@
+baseURL: "https://steven70066.github.io/make-mend-explore/"
 theme: E25DX
 
 enableGitInfo: true
